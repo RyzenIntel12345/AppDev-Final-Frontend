@@ -1,0 +1,82 @@
+
+.keep {
+    font-family: "Arimo", sans-serif;
+    font-style: italic;
+    color: #b0bec5;
+}
+
+.shopping {
+    font-family: "League Gothic", sans-serif;
+    font-style: italic;
+    font-weight: regular;
+    font-size: 40px;
+    color: #59b280;
+}
+
+.brand-name {
+    display: inline-block;
+    line-height: 5px;
+}
+
+.custom-navbar {
+    background-color: #ffffff;
+    height: 110px;
+    border-radius: 0 0 70px 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+}
+
+/* Center the search bar and set its max width */
+.search-bar {
+    flex-grow: 1;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Container for search input and icon */
+.search-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Position the search icon inside the input */
+.search-icon {
+    position: absolute;
+    left: 15px;
+    color: #fcfcfc; /* Muted gray color */
+}
+
+/* Search input styling */
+.search-input {
+    padding-left: 40px; /* Add space for the icon */
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 30px;
+    height: 40px;
+    background-color: #adebc8;
+}
+
+/* Container for navigation icons */
+.icons-nav {
+    display: flex;
+    gap: 18px; /* Space between icons */
+}
+
+/* Cart badge styles */
+.cart-icon {
+    position: relative;
+    cursor: pointer;
+    color: #59b280;
+}
+
+.cart-badge {
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    background: #ff3131;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}

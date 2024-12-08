@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Gothic&family=Poppins:ital@0;1&display=swap');
+body {
+  background-color: #efefef;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  color: #272422;
+}
+
+
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    border: 2px solid #28a745; 
+    background-color: #f8f9fa; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+
+.custom-button {
+    border-radius: 30px;
+}
+
+/* .qty-button {
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    font-size: 18px;
+    border: none;
+    background-color: #203f5f;
+    color: #28a745;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  
+} */
+
+.trash-icon {
+    color: #ea2d40;
+}
+
+.trash-icon :hover {
+    background-color: #ea2d40;
+    
+    
+}
+
+/* Order Summary */
+.custom-tbl {
+    background-color: rgba(173, 235, 200, 0.5) !important;
+    
+  }
